@@ -15,10 +15,10 @@ event_info = []
 try:
     # Establish a connection
     connection = mysql.connector.connect(
-        host='localhost',        # Replace with your host, e.g., 'localhost'
-        database='techvaganza_test',  # Replace with your database name
-        user='hirdyansh',      # Replace with your username
-        password='hirdyansh10'    # Replace with your password
+        host='',        # Replace with your host, e.g., 'localhost'
+        database='',  # Replace with your database name
+        user='',      # Replace with your username
+        password=''    # Replace with your password
     )
 
 
