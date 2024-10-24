@@ -16,7 +16,7 @@ try:
     # Establish a connection
     connection = mysql.connector.connect(
         host='',        # Replace with your host, e.g., 'localhost'
-        database='',  # Replace with your database name
+        database='techvaganza_test',  # Replace with your database name
         user='',      # Replace with your username
         password=''    # Replace with your password
     )
